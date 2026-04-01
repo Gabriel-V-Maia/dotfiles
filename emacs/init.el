@@ -93,7 +93,6 @@
   (add-to-list 'eglot-server-programs
     '(asm-mode . ("asm-lsp"))))
 
-(add-hook 'html-mode-hook #'sgml-electric-tag-pair-mode)
 
 (use-package corfu
   :custom
