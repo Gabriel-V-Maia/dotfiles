@@ -1,0 +1,40 @@
+xterm*background: #0f0f0f
+xterm*foreground: #c5c5c5
+xterm*cursorColor: #cc3333
+xterm*faceName: Iosevka Term
+xterm*faceSize: 20
+
+URxvt*background: #0f0f0f
+URxvt*foreground: #c5c5c5
+URxvt*cursorColor: #cc3333
+URxvt*font: xft:Iosevka Term:size=12
+URxvt*scrollBar: false
+URxvt*skipScrollToBottom: false
+URxvt*scrollTtyOutput: true
+URxvt*internalBorder: 6
+URxvt*cursorBlink: true
+
+! Black
+URxvt*color0:  #1c1c1c
+URxvt*color8:  #3a3a3a
+! Red
+URxvt*color1:  #cc3333
+URxvt*color9:  #bb4444
+! Green
+URxvt*color2:  #5a8a5a
+URxvt*color10: #6a9e6a
+! Yellow
+URxvt*color3:  #a87d3a
+URxvt*color11: #b8923a
+! Blue
+URxvt*color4:  #4a6a8a
+URxvt*color12: #5a7a9a
+! Magenta
+URxvt*color5:  #7a5a8a
+URxvt*color13: #8a6a9a
+! Cyan
+URxvt*color6:  #4a7a8a
+URxvt*color14: #5a8a9a
+! White
+URxvt*color7:  #c5c5c5
+URxvt*color15: #d5d5d5
