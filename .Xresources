@@ -38,3 +38,14 @@ URxvt*color14: #5a8a9a
 ! White
 URxvt*color7:  #c5c5c5
 URxvt*color15: #d5d5d5
+
+
+! pasting and copying
+URxvt*perl-lib: /home/lordduck/.urxvt/ext
+URxvt*perl-ext-common: default,clipboard,selection
+URxvt*keysym.Shift-Control-C: perl:clipboard:copy
+URxvt*keysym.Shift-Control-V: perl:clipboard:paste
+URxvt*copyCommand: xclip -i -selection clipboard
+URxvt*pasteCommand: xclip -o -selection clipboard
+URxvt*iso14755: false
+URxvt*iso14755_52: false
